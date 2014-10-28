@@ -31,7 +31,7 @@
           <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,400,500|Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
           <!-- STYLESHEETS -->
           <link href="<?php echo base_url('css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css" />
-          <link href="<?php echo base_url('font-awesome-4.1.0/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css" />
+          <link href="<?php echo base_url('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css" />
           <link href="<?php echo base_url('css/maintenance/animate.css'); ?>" rel="stylesheet" type="text/css" />
           <link href="<?php echo base_url('css/maintenance/style.css'); ?>" rel="stylesheet" type="text/css" />
               
