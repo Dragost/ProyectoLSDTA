@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LSDTA documentación</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/social-icons.css">
+        <link rel="stylesheet" type="text/css" href="assets/magnific-popup.min.css">
+
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <div id="top" class="container">
+        <div id="wrapper">
+
+            <!-- HEADER : begin -->
+            <header>
+                <div class="row">
+                    <div class="offset1 span10">
+                        <!-- LOGO : begin -->
+                        <div id="logo"><img src="content/logo.png" alt=""></div>
+                        <!-- LOGO : end -->
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER : end -->
+
+            <!-- DESCRIPTION : begin -->
+            <div id="description">
+                <div class="row">
+                    <div class="offset1 span10">
+                        <div class="description-inner">
+                            <h1>Documentación</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- DESCRIPTION : end -->
+
+            <!-- CORE : begin -->
+            <div id="core">
+
+                <div class="row">
+
+                    <!-- NAV : begin -->
+                    <div class="offset1 span3">
+
+                        <nav class="main">
+                            <ul class="nav">
+                                <li class="active">
+                                	<a href="#introduccion">Introducción</a>
+                                	<ul>
+										<li><a href="#contexto">Contexto</a></li>
+										<li><a href="#descripcion">Descripción</a></li>
+									</ul>
+                                </li>
+								<li><a href="#objetivos">Objetivos</a></li>
+								<li><a href="#gantt">Diagrama de Gantt</a></li>
+								<li><a href="#presupuesto">Presupuesto</a></li>
+								<li>
+									<a href="#analisis">Analisis</a>
+                                	<ul>
+										<li><a href="#db">Base de datos</a></li>
+										<li><a href="#urls">Previsión URLs</a></li>
+									</ul>
+								</li>
+								<li><a href="#bitacora">Cuaderno de Bitácora</a></li>
+								<li><a href="#creditos">Créditos</a></li>
+                        </nav>
+
+                    </div>
+                    <!-- NAV : end -->
+
+                    <!-- CONTENT : begin -->
+                    <div class="span7 content">
+
+						<!-- INTRODUCCION : begin -->
+						<section id="introduccion">
+							<h2>Introducción</h2>
+
+							<h3 id="contexto">Contexto</h3>
+							<p>Viendo la cantidad de programadores que actualmente trabajan usando tecnologías como Wordpress, Joomla y demás... , cuando realmente no hace falta tanto sistema de gestión.</p>
+							<p>O muchas veces empiezan de cero, sin usar ningún framework, perdiendo mucho tiempo, cuando tendría que ser algo más sencillo y estructurado.</p>
+							<p>La creación de una "base" para desarrollar futuros proyectos es lo que me propongo hacer.</p>
+							<p>Una "base" que te ahorre horas de programación al empezar proyectos sencillos, en los que solo se desea dar publicidad a un producto o servicio. Con un panel de gestión sencillo, en donde se pueda modificar las diferentes secciones de la web.</p>
+
+							<h3 id="descripcion">Descripción</h3>
+							<p>El proyecto a desarrollar quiere ser la programación base para ahorrarme tiempo cada vez que busque crear una web con los siguientes requerimientos:</p>
+
+							<ul>
+								<li>Página principal con lo más <strong>destacado</strong></li>
+								<li>Página de <strong>noticias</strong></li>
+								<li>Página de <strong>eventos</strong> por fecha</li>
+								<li>Página con galerias de <strong>imágenes</strong></li>
+								<li>Página con <strong>videos</strong></li>
+								<li>Página de <strong>información</strong> acerca del propietario</li>
+								<li>Panel de <strong>administración</strong></li>
+							</ul>
+
+						</section>
+						<!-- INTRODUCCION : end -->
+
+						<!-- OBJETIVOS : begin -->
+						<section id="objetivos">
+
+							<h2>Análisis de Requerimientos</h2>
+
+							<h3>Requisitos Funcionales</h3>
+							<ul>
+								<li>RF01 - Inicio de sesión en Panel de Gestión
+									<ul>
+										<li>El sistema deberá validar la información correspondiente al usuario y
+										permitir el ingreso a la plataforma. El usuario deberá tener un usuario
+										registrado en la web para poder visualizar el panel de gestión.</li>
+										<li>REQ ASOCIADO: RF02, RF03, RF04, RF05</li>
+									</ul>
+								</li>
+								<li>RF02 - Gestión de Noticias
+									<ul>
+										<li>Al iniciar sesión en el sistema deberá permitir al administrador crear,
+										actualizar o eliminar las diferentes noticias de la base de datos.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RF03 - Gestión de Eventos
+									<ul>
+										<li>Al iniciar sesión en el sistema deberá permitir al administrador crear,
+										actualizar o eliminar los diferentes eventos de la base de datos.
+										Que serán reflejados en el calendario.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RF04 - Gestión de Fotografías
+									<ul>
+										<li>Al iniciar sesión en el sistema deberá permitir al administrador subir
+										o eliminar fotografías de la galería.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RF05 - Gestión de Vídeos
+									<ul>
+										<li>Al iniciar sesión en el sistema deberá permitir al administrador subir
+										o eliminar vídeos de la galería.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RF06 - Inicio de sesión a través de Redes Sociales
+									<ul>
+										<li>El sistema debe poder permitir el Inicio de Sesión solo a través de la
+										API de Facebook. (Twitter y G+ no requeridas pero aconsejable)</li>
+										<li>REQ ASOCIADO: RF07</li>
+									</ul>
+								</li>
+								<li>RF07 - Postear Comentario
+									<ul>
+										<li>El sistema debe poder permitir comentar entradas de la web si se ha iniciado
+										sesión a través de alguna red social.</li>
+										<li>REQ ASOCIADO: RF06</li>
+									</ul>
+								</li>
+							</ul>
+
+
+							<h3>Requisitos No Funcionales</h3>
+
+							<ul>
+								<li>RNF01 - Nivel de Usuario
+									<ul>
+										<li>El sistema deberá permitir visualizar y gestionar la plataforma,
+										según los roles de usuario como administrador o usuario general.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RNF02 - Interfaz del Usuario
+									<ul>
+										<li>El sistema deberá contar con una plataforma agradable, eficaz e
+										interesante.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+								<li>RNF3 - Acceso al software
+									<ul>
+										<li>El sistema estará en línea deberá permitir que los usuarios y el
+										administrador accedan a la página web.</li>
+										<li>REQ ASOCIADO: RF01</li>
+									</ul>
+								</li>
+							</ul>
+
+
+						</section>
+						<!-- OBJETIVOS : end -->
+
+						<!-- GANTT : begin -->
+						<section id="gantt">
+
+							<h2>Diagrama de Gantt</h2>
+
+							<iframe src="gantt/only_grid.html" width="100%" height="597px" frameBorder="0"></iframe>
+
+							<center><a href="gantt/index.html" target="_blank">>> Ver Gráfico <<</a></center>
+
+						</section>
+						<!-- GANTT : end -->
+
+						<!-- PRESUPUESTO : begin -->
+						<section id="presupuesto">
+
+							<h2>Presupuesto</h2>
+
+							
+
+						</section>
+						<!-- PRESUPUESTO : end -->
+
+						<!-- ANALISIS : begin -->
+						<section id="analisis">
+
+							<h2>Analisis</h2>
+
+							<h3 id="db">Base de datos</h3>
+							<iframe src="database/index.html" width="100%" height="490px" frameborder="none"></iframe>
+
+							<center><a href="database/index.html" target="_blank">>> Ver Base de Datos <<</a></center>
+
+							<h3 id="urls">Previsión URLs Amigables</h3>
+							<h4>Usuario</h4>
+							<ul>
+								<li>lsdta.es/ - Inicio</li>
+								<li>lsdta.es/noticias - Listado de las noticias</li>
+								<li>lsdta.es/noticias/estrenamos-nuevo-videoclip - Muestra noticia concreta</li>
+								<li>lsdta.es/conciertos - Listado de conciertos</li>
+								<li>lsdta.es/conciertos/20-10-2014 - Evento en concreto</li>
+								<li>lsdta.es/fotos - Galería de fotos</li>
+								<li>lsdta.es/videos - Galería de vídeos</li>
+								<li>lsdta.es/sobre - Información acerca del grupo</li>
+								<li>lsdta.es/contacto - Página de contacto</li>
+							</ul>
+							<h4>Panel de Administración</h4>
+							<ul>
+								<li>lsdta.es/admin/ - Inicio del panel</li>
+								<li>lsdta.es/admin/login - Login</li>
+								<li>lsdta.es/admin/noticias - Gestión de noticias</li>
+								<li>lsdta.es/admin/noticias/add - Añadir noticia</li>
+								<li>lsdta.es/admin/eventos - Gestión de eventos</li>
+								<li>lsdta.es/admin/eventos/add - Añadir eventos</li>
+								<li>lsdta.es/admin/fotos - Gestión de fotos</li>
+								<li>lsdta.es/admin/fotos/add - Añadir fotos</li>
+								<li>lsdta.es/admin/videos - Gestión de vídeos</li>
+								<li>lsdta.es/admin/videos/add - Añadir vídeos</li>
+								<li>lsdta.es/admin/sobre - Edición de "Sobre"</li>
+								<li>lsdta.es/admin/contacto - Configuración del contacto</li>
+							</ul>
+
+
+
+						</section>
+						<!-- ANALISIS : end -->
+
+						<!-- BITACORA : begin -->
+                        <section id="bitacora">
+
+                            <h2>Cuaderno de Bitácora</h2>
+
+							<p>Puedes acceder al cuaderno haciendo click en el enlace: <a href="bitacora.html" target="_blank">Acceder</a> </p>
+
+                        </section>
+                        <!-- BITACORA : end -->
+
+                        <!-- CREDITOS : begin -->
+                        <section id="creditos">
+
+                            <h2>Créditos</h2>
+
+							<p>Desarrollado por:<strong> Alberto Punter</strong>.</p>
+
+							<h2>Contacto:</h2>
+
+                            <p><span class="soc-facebook"></span><a href="https://www.facebook.com/dragost11" target="_blank">Página de Facebook</a></p>
+                            <p><span class="soc-twitter"></span><a href="https://twitter.com/dragostzgz" target="_blank">Página de Twitter</a></p>
+                            <p><span class="soc-gplus"></span><a href="https://plus.google.com/+AlbertoPunter" target="_blank">Página de Google+</a></p>
+
+                        </section>
+                        <!-- CREDITOS : end -->
+
+                    </div>
+                    <!-- CONTENT : end -->
+
+                </div>
+
+            </div>
+            <!-- CORE : end -->
+
+        </div>
+
+        <footer>
+            <p>Copyright &copy; Los Secretos de tu Almohada</p>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="assets/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/scripts.js"></script>
+
+    </body>
+</html>
