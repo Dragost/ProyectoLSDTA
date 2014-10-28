@@ -6,6 +6,10 @@ Proyecto de final de GS
 
 Diseño de página web funcional.
 
+Documentación:
+==============
+[Ir a la documentación](http://lossecretosdetualmohada.com/doc/)
+
 
 Programador
 ===========
