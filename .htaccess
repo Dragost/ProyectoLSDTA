@@ -1,6 +1,7 @@
+Allow from all
 RewriteEngine on 
 RewriteCond $1 !^(index.php|css|doc|js|img|font-awesome-4.1.0|robots.txt) 
-RewriteRule ^(.*)$ /webs/lsdta/index.php/$1 [L]
+RewriteRule ^(.*)$ /index.php/$1 [L]
 
 <ifModule mod_headers.c>
    Header set Access-Control-Allow-Origin "*"
