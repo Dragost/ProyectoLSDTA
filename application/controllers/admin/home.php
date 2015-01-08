@@ -9,6 +9,7 @@ class Home extends CI_Controller {
 
  function index()
  {
+   $this->config->set_item('base_url', 'https://www.lossecretosdetualmohada.com/');
    if($this->session->userdata('logged_in'))
    {
      $session_data = $this->session->userdata('logged_in');

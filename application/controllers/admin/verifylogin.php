@@ -10,6 +10,7 @@ class VerifyLogin extends CI_Controller {
 
  function index()
  {
+   $this->config->set_item('base_url', 'https://www.lossecretosdetualmohada.com/');
    //This method will have the credentials validation
    $this->load->library('form_validation');
 

@@ -1,0 +1,43 @@
+[Tue Dec 16 13:26:28.103211 2014] [ssl:warn] [pid 25244] AH01906: RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 16 13:26:28.371908 2014] [ssl:warn] [pid 25290] AH01906: RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Dec 17 10:41:29.362629 2014] [ssl:error] [pid 12704] AH02203: Init: Private key not found
+[Wed Dec 17 10:41:29.362822 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:41:29.362870 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D08303A:asn1 encoding routines:ASN1_TEMPLATE_NOEXP_D2I:nested asn1 error
+[Wed Dec 17 10:41:29.362898 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:41:29.362927 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=RSA)
+[Wed Dec 17 10:41:29.362956 2014] [ssl:error] [pid 12704] SSL Library Error: error:04093004:rsa routines:OLD_RSA_PRIV_DECODE:RSA lib
+[Wed Dec 17 10:41:29.362983 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:41:29.363011 2014] [ssl:error] [pid 12704] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Wed Dec 17 10:43:00.467269 2014] [ssl:error] [pid 9453] AH02203: Init: Private key not found
+[Wed Dec 17 10:43:00.467481 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:43:00.467519 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D08303A:asn1 encoding routines:ASN1_TEMPLATE_NOEXP_D2I:nested asn1 error
+[Wed Dec 17 10:43:00.467546 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:43:00.467576 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=RSA)
+[Wed Dec 17 10:43:00.467605 2014] [ssl:error] [pid 9453] SSL Library Error: error:04093004:rsa routines:OLD_RSA_PRIV_DECODE:RSA lib
+[Wed Dec 17 10:43:00.467631 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:43:00.467659 2014] [ssl:error] [pid 9453] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Wed Dec 17 10:44:11.070186 2014] [ssl:warn] [pid 32051] AH01906: RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Dec 17 10:44:11.323953 2014] [ssl:warn] [pid 32096] AH01906: RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Dec 17 10:55:43.133508 2014] [ssl:error] [pid 26463] AH02203: Init: Private key not found
+[Wed Dec 17 10:55:43.133705 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:55:43.133752 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D08303A:asn1 encoding routines:ASN1_TEMPLATE_NOEXP_D2I:nested asn1 error
+[Wed Dec 17 10:55:43.133781 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:55:43.133811 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=RSA)
+[Wed Dec 17 10:55:43.133841 2014] [ssl:error] [pid 26463] SSL Library Error: error:04093004:rsa routines:OLD_RSA_PRIV_DECODE:RSA lib
+[Wed Dec 17 10:55:43.133868 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D0680A8:asn1 encoding routines:ASN1_CHECK_TLEN:wrong tag
+[Wed Dec 17 10:55:43.133897 2014] [ssl:error] [pid 26463] SSL Library Error: error:0D07803A:asn1 encoding routines:ASN1_ITEM_EX_D2I:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Tue Dec 30 02:20:22.223126 2014] [ssl:error] [pid 30431] AH02032: Hostname 62.210.195.149 provided via SNI and hostname lossecretosdetualmohada.com provided via HTTP are different
+[Mon Jan 05 19:42:06.852699 2015] [:error] [pid 31597] [client 90.165.158.197:52902] PHP Fatal error:  Call to a member function subir() on a non-object in /var/www/html/webs/lsdta/ProyectoLSDTA/application/controllers/admin/discografia.php on line 76, referer: https://www.lossecretosdetualmohada.com/admin/discografia/add
+[Mon Jan 05 19:42:58.895049 2015] [:error] [pid 2694] [client 90.165.158.197:52921] PHP Fatal error:  Call to a member function subir() on a non-object in /var/www/html/webs/lsdta/ProyectoLSDTA/application/controllers/admin/discografia.php on line 76, referer: https://www.lossecretosdetualmohada.com/admin/discografia/add
+[Mon Jan 05 20:15:59.410601 2015] [ssl:error] [pid 21069] AH02032: Hostname 62.210.195.149 provided via SNI and hostname lossecretosdetualmohada.com provided via HTTP are different
+[Wed Jan 07 21:12:35.629846 2015] [:error] [pid 9299] [client 90.165.158.197:52494] PHP Parse error:  syntax error, unexpected ';' in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 185, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 21:12:38.060007 2015] [:error] [pid 30361] [client 90.165.158.197:52498] PHP Parse error:  syntax error, unexpected ';' in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 185, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 21:12:38.806099 2015] [:error] [pid 1214] [client 90.165.158.197:52504] PHP Parse error:  syntax error, unexpected ';' in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 185, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 21:14:31.573130 2015] [:error] [pid 9299] [client 90.165.158.197:52536] PHP Parse error:  syntax error, unexpected ';' in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 186, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 23:30:28.489423 2015] [:error] [pid 10441] [client 85.55.201.78:54744] PHP Fatal error:  Call to a member function result() on a non-object in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 170, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 23:36:05.901505 2015] [:error] [pid 30139] [client 85.55.201.78:54820] PHP Fatal error:  Call to a member function result() on a non-object in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 170, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Wed Jan 07 23:36:24.677338 2015] [:error] [pid 16079] [client 90.165.158.197:54193] PHP Fatal error:  Call to a member function result() on a non-object in /var/www/html/webs/lsdta/ProyectoLSDTA/application/views/admin/gallerys_form_view.php on line 170, referer: https://www.lossecretosdetualmohada.com/admin/galerias
+[Thu Jan 08 00:15:15.222906 2015] [:error] [pid 23118] [client 85.55.201.78:55038] PHP Warning:  POST Content-Length of 11784723 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: https://www.lossecretosdetualmohada.com/admin/galerias/add
+[Thu Jan 08 00:17:26.543842 2015] [:error] [pid 27022] [client 85.55.201.78:55059] PHP Warning:  POST Content-Length of 11784723 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: https://www.lossecretosdetualmohada.com/admin/galerias/add
+[Thu Jan 08 00:17:29.525388 2015] [:error] [pid 14321] [client 85.55.201.78:55060] PHP Warning:  POST Content-Length of 11784723 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: https://www.lossecretosdetualmohada.com/admin/galerias/add
+[Thu Jan 08 00:20:50.358546 2015] [:error] [pid 27337] [client 85.55.201.78:55095] PHP Warning:  POST Content-Length of 11784724 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: https://www.lossecretosdetualmohada.com/admin/galerias/edit/3

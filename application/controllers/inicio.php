@@ -17,7 +17,14 @@ class Inicio extends CI_Controller {
 
 		} else {
 
-			$this->load->view('home_view');
+			$this->db->order_by("date", "desc");
+			$datos['ultimas'] = $this->db->get_where('news', array('active' => 1), 3);
+			$home_slider = $this->db->get_where('gallerys', array('home_slider' => 1))->row();
+			$datos['images_home_slider'] = $this->db->get_where('photos', array('gallerys_id' => $home_slider->id));
+
+			$this->load->view('header');
+			$this->load->view('home_view', $datos);
+			$this->load->view('footer', $datos);
 
 		}
 	}

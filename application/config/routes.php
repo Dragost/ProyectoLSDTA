@@ -43,6 +43,7 @@ $route['admin'] = "admin/home";
 $route['404_override'] = 'error404';
 $route['conciertos/(:any)'] = "conciertos/ver/$1";
 $route['noticias/(:any)'] = "noticias/ver/$1";
+$route['galerias/(:any)'] = "galerias/ver/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

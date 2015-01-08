@@ -7714,8 +7714,8 @@ img {
     PAGE HEADER
 ------------------------------------------------------------------------- */
 #page-header {
-  padding: 72px 0 48px 0;
-  margin-bottom: 72px;
+  padding: 22px 0 8px 0;
+  /*margin-bottom: 72px;*/
   border-bottom: 1px solid transparent; }
   #page-header .container:after {
     display: table;
@@ -8332,7 +8332,8 @@ img {
 
 ----------------------------------------------------------------------------- */
 #page-sidebar {
-  padding-bottom: 48px; }
+  padding-bottom: 48px;
+  padding-top: 20px; }
   #page-sidebar .widget {
     margin-bottom: 48px; }
   #page-sidebar .widget-title {

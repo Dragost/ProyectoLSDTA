@@ -17,7 +17,14 @@ class Conciertos extends CI_Controller {
 		} else {
 
 			$datos['valor'] = "Listado de Conciertos";
-			$this->load->view('home_view',$datos);
+			$this->db->order_by("date_start", "asc");
+			$datos['conciertos'] = $this->db->get('concerts');
+			$this->db->order_by("date", "desc");
+			$datos['ultimas'] = $this->db->get_where('news', array('active' => 1), 3);
+			
+			$this->load->view('header');
+			$this->load->view('concerts_view', $datos);
+			$this->load->view('footer', $datos);
 
 		}
 	}
@@ -30,7 +37,12 @@ class Conciertos extends CI_Controller {
 
 		} else {
 			$datos['valor'] = $valor;
-			$this->load->view('home_view',$datos);
+			$this->db->order_by("date", "desc");
+			$datos['ultimas'] = $this->db->get_where('news', array('active' => 1), 3);
+
+			$this->load->view('header');
+			$this->load->view('concerts_view', $datos);
+			$this->load->view('footer', $datos);
 		}
 		
 	}

@@ -17,7 +17,12 @@ class Contacto extends CI_Controller {
 		} else {
 
 			$datos['valor'] = "Contacto";
-			$this->load->view('home_view',$datos);
+			$this->db->order_by("date", "desc");
+			$datos['ultimas'] = $this->db->get_where('news', array('active' => 1), 3);
+
+			$this->load->view('header');
+			$this->load->view('contact_view', $datos);
+			$this->load->view('footer', $datos);
 
 		}
 	}

@@ -9,6 +9,7 @@ class Login extends CI_Controller {
 
  function index()
  {
+   $this->config->set_item('base_url', 'https://www.lossecretosdetualmohada.com/');
 	if($this->session->userdata('logged_in'))
    {
 		redirect('admin/home', 'refresh');

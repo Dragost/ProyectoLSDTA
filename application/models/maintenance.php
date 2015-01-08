@@ -4,7 +4,7 @@ Class Maintenance extends CI_Model
 
   function show_maintenance ( $ip ){
 
-    $query = $this->db->query("SELECT maintenance, excludeips FROM settings WHERE id = 0");
+    $query = $this->db->query("SELECT maintenance, excludeips FROM admin_settings WHERE id = 0");
 
     if($query -> num_rows() > 0) {
 
@@ -43,7 +43,7 @@ Class Maintenance extends CI_Model
 
   function is_mintenance () {
 
-  	$query = $this->db->query("SELECT maintenance FROM settings WHERE id = 0");
+  	$query = $this->db->query("SELECT maintenance FROM admin_settings WHERE id = 0");
 
     if($query -> num_rows() > 0) {
 
@@ -60,13 +60,15 @@ Class Maintenance extends CI_Model
   }
 
 
-  function update_maintenance ( $val ) {
+  function update_maintenance ( $val, $excludeips ) {
     // $val: 0 o 1
+    // $excludeips: ipnumber-ipnumber-ipnumber
 
-    if ($val === 0 || $val === 1) {
-      $data = array('maintenance' => $val);
+    if ($val == 0 || $val == 1) {
+      $data = array('maintenance' => $val,
+                    'excludeips' => $excludeips);
       $this->db->where('id', 0);
-    $this->db->update('settings', $data); 
+      $this->db->update('admin_settings', $data); 
     }
 
   }
